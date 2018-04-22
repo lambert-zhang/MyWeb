@@ -10,7 +10,7 @@ public class MyWebController {
 	@RequestMapping(value = {"/lambert", "/"})
 	@ResponseBody
 	public String getInfo() {
-		return "my web example!";
+		return "my web example with spring !";
 	}
 
 }
