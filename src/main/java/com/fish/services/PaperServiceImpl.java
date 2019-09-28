@@ -1,9 +1,9 @@
-package services;
-
-import modules.Paper;
-import services.PaperService;
+package com.fish.services;
 
 import org.springframework.stereotype.Service;
+
+import com.fish.modules.Paper;
+import com.fish.services.PaperService;
 
 @Service
 public class PaperServiceImpl implements PaperService {

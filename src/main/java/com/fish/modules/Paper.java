@@ -1,4 +1,4 @@
-package modules;
+package com.fish.modules;
 
 public class Paper {
 	
@@ -11,7 +11,7 @@ public class Paper {
 	public Paper() {
 		setPrice(0);
 		setPages(0);
-		setQuaility("none");
+		setQuaility("12.0");
 	}
 
 	public int getPrice() {

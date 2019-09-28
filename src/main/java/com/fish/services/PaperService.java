@@ -1,6 +1,6 @@
-package services;
+package com.fish.services;
 
-import modules.Paper;
+import com.fish.modules.Paper;
 
 public interface PaperService {
 	public Paper getPaper();
